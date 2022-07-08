@@ -5,7 +5,6 @@
 
     Private Sub Levels_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
         Form1.Show()
-        Me.Close()
     End Sub
 
     Private Sub BtnLvl1_Click(sender As Object, e As EventArgs) Handles BtnLvl1.Click

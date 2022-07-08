@@ -12,4 +12,9 @@
         Costumes.Show()
         Me.Hide()
     End Sub
+
+    Private Sub ButtonUser_Click(sender As Object, e As EventArgs) Handles ButtonUser.Click
+        Users.Show()
+        Me.Hide()
+    End Sub
 End Class

@@ -25,11 +25,12 @@ Partial Class Form1
         Me.BtnLevel = New System.Windows.Forms.Button()
         Me.BtnCostumes = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.ButtonUser = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'BtnLevel
         '
-        Me.BtnLevel.Location = New System.Drawing.Point(298, 156)
+        Me.BtnLevel.Location = New System.Drawing.Point(298, 74)
         Me.BtnLevel.Name = "BtnLevel"
         Me.BtnLevel.Size = New System.Drawing.Size(163, 61)
         Me.BtnLevel.TabIndex = 0
@@ -54,11 +55,21 @@ Partial Class Form1
         Me.Button3.Text = "Exit"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'ButtonUser
+        '
+        Me.ButtonUser.Location = New System.Drawing.Point(298, 153)
+        Me.ButtonUser.Name = "ButtonUser"
+        Me.ButtonUser.Size = New System.Drawing.Size(163, 61)
+        Me.ButtonUser.TabIndex = 3
+        Me.ButtonUser.Text = "Users"
+        Me.ButtonUser.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ButtonUser)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.BtnCostumes)
         Me.Controls.Add(Me.BtnLevel)
@@ -71,4 +82,5 @@ Partial Class Form1
     Friend WithEvents BtnLevel As Button
     Friend WithEvents BtnCostumes As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents ButtonUser As Button
 End Class
